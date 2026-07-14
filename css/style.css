@@ -12,7 +12,6 @@ nav a:hover {color: #2d8cff;}
 /* ========================= HERO SECTION (GRADIENT) ========================= */
 .hero {text-align: center;padding: 80px 20px;color: white;background: linear-gradient(135deg, #2d8cff, #6ec6ff);}
 .hero img {margin-top: 20px;border-radius: 12px;}
-.hero-video {width: 100%; height: auto; object-fit: cover;}
 /* ========================= BUTTONS (APP STYLE) ========================= */
 .btn {display: inline-block;padding: 14px 22px;margin: 10px;background: #ffffff;color: #2d8cff;text-decoration: none;border-radius: 10px;font-weight: bold;transition: 0.2s;}
 .btn:hover {transform: scale(1.05);}
