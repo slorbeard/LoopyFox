@@ -18,9 +18,11 @@
 <header class="hero">
 <h1>LoopyFox LLC</h1>
 <h2>Play. Learn. Repeat.</h2>
-    <video controls playsinline preload="auto" width="500">
-      <source src="images/AnimatedLogo.mp4" type="video/mp4">
-    </video>
+
+    <button onclick="document.getElementById('logoVideo').play()">Play Video</button>
+  <video id="logoVideo" playsinline width="500">
+    <source src="images/AnimatedLogo.mp4" type="video/mp4">
+  </video>
 <p>Practical mobile applications that combine useful tools, educational content, and engaging experiences.</p>
 <a href="#app" class="btn">Explore InsulinCalc</a>
 <a href="#support" class="btn secondary">Contact Support</a>
